@@ -2,7 +2,6 @@
 
 A **Python** command-line app that uses the **SpaceX public REST API** to show **live launch data**.
 
-This project is a completely different type from web dashboards:
 - **Language:** Python 3
 - **Type:** Interactive **terminal / CLI** application
 - **Focus:** API consumption, data parsing, and rich terminal UI
@@ -86,16 +85,6 @@ This uses the official SpaceX public API:
   - `/launchpads`
 
 No API key is required.
-
----
-
-## 🧩 Ideas for Extensions
-
-- Add a flag to export launches to **CSV**
-- Add filters by **success/failure**
-- Add a "only Starlink launches" filter
-- Cache rocket and launchpad lookups between runs (to avoid extra API calls)
-- Wrap this in a **Flask / FastAPI** service later and add a web front end
 
 ---
 
